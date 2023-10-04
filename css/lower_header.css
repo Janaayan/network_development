@@ -1,0 +1,28 @@
+.layout {
+    width: 100%;
+    height: 60px;
+    /* UI Properties */
+    background: #FFFFFF;
+    box-shadow: -1.04px 6px 9px #00000012;
+    opacity: 1;
+    display: flex;
+}
+
+.layout1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.layout1 li {
+    list-style: none;
+    margin-top: 17px;
+}
+
+.layout1 li a {
+    letter-spacing: 0.42px;
+    color: #2B2B2B;
+    text-transform: uppercase;
+    opacity: 0.8;
+    text-decoration: none;
+    padding: 40px;
+}

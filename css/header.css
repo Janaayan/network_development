@@ -1,0 +1,57 @@
+.head {
+    width: 100%;
+    height: auto;
+    background: #2B2B2B;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-top: auto;
+    padding: 15px;
+    width: 59px;
+    height: auto;
+    background: transparent url('img/logo.png');
+    opacity: 1;
+}
+
+.heading {
+    /* width: 611px; */
+    text-align: center;
+    /* font: normal normal bold 27px/30px; */
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.symbol {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+.persons-symbol {
+    height: 33px;
+    padding: 5px;
+    font: normal normal normal 28px/39px SS Gizmo;
+    color: #D5D5D5;
+    opacity: 0.8;
+}
+
+.symbol p {
+    margin: auto;
+    color: #D5D5D5;
+    opacity: 0.8;
+}
+
+.separator1 {
+    height: 25px;
+    border-right: 1px solid #d5cece;
+    margin-top: 14px;
+}
